@@ -1,5 +1,6 @@
 #include "lists.h"
-
+#include <stdlib.h>
+#include <stddef.h>
 /**
  * insert_node _ insert the data on the linked liss
  * @head: this is the head
@@ -34,5 +35,4 @@ listint_t *insert_node(listint_t **head, int number)
 		node = node->next;
 	}
 	return (NULL);
-}
-	
+}	
