@@ -12,15 +12,14 @@ if __name__ == '__main__':
             print("{} + {} = {}".format(x, y, clt.add(x, y)))
             exit(0)
         elif a == '-':
-            print("{} + {} = {}".format(x, y, clt.sub(x, y)))
+            print("{} - {} = {}".format(x, y, clt.sub(x, y)))
             exit(0)
         elif a == '*':
-            print("{} + {} = {}".format(x, y, clt.mul(x, y)))
+            print("{} * {} = {}".format(x, y, clt.mul(x, y)))
             exit(0)
         elif a == '/':
-            if y != 0:
-                print("{} + {} = {}".format(x, y, clt.div(x, y)))
-                exit(0)
+            print("{} / {} = {}".format(x, y, clt.div(x, y)))
+            exit(0)
         else:
             print("Unknown operator. Available operators: +, -, * and /")
             exit(1)
