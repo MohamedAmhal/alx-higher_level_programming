@@ -21,9 +21,6 @@ if __name__ == '__main__':
             if y != 0:
                 print("{} + {} = {}".format(x, y, clt.div(x, y)))
                 exit(0)
-            else:
-                print("you are not devided by 0!!")
-                exit(1)
         else:
             print("Unknown operator. Available operators: +, -, * and /")
             exit(1)
