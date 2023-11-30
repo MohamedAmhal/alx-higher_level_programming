@@ -10,23 +10,23 @@ if __name__ == '__main__':
 
         if a == '+':
             print("{} + {} = {}".format(x, y, clt.add(x, y)))
-            exit(1)
+            exit(0)
         elif a == '-':
             print("{} + {} = {}".format(x, y, clt.sub(x, y)))
-            exit(1)
+            exit(0)
         elif a == '*':
             print("{} + {} = {}".format(x, y, clt.mul(x, y)))
-            exit(1)
+            exit(0)
         elif a == '/':
             if y != 0:
                 print("{} + {} = {}".format(x, y, clt.div(x, y)))
-                exit(1)
+                exit(0)
             else:
                 print("you are not devided by 0!!")
-                exit(0)
+                exit(1)
         else:
             print("Unknown operator. Available operators: +, -, * and /")
-            exit(0)
+            exit(1)
     else:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         exit(1)
