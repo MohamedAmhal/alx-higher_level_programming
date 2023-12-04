@@ -1,10 +1,10 @@
 #include "lists.h"
 
 /**
- * reverse_listint - reverses a linked list
- * @head: pointer to the first node in the list
+ * reverse_listint - you will reverse the linked list
+ * @head: the head
  *
- * Return: pointer to the first node in the new list
+ * Return: the first node
  */
 void reverse_listint(listint_t **head)
 {
@@ -24,10 +24,10 @@ void reverse_listint(listint_t **head)
 }
 
 /**
- * is_palindrome - checks if a linked list is a palindrome
- * @head: double pointer to the linked list
+ * is_palindrome - fonvtion linked list palandrome
+ * @head: the head
  *
- * Return: 1 if it is, 0 if not
+ * Return: 0 or 1
  */
 int is_palindrome(listint_t **head)
 {
@@ -70,4 +70,3 @@ int is_palindrome(listint_t **head)
 
   return (0);
 }
-
