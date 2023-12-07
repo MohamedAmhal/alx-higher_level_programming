@@ -6,6 +6,6 @@ def best_score(a_dictionary):
     for i in a_dictionary.values():
         a.append(i)
     maxi = max(a)
-    for i in a_dictionary.keys():
-        if a_dictionary[i] == maxi:
-            return i
+    for j in a_dictionary.keys():
+        if a_dictionary[j] == maxi:
+            return j
