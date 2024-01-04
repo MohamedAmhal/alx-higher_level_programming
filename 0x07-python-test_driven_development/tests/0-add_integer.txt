@@ -1,0 +1,30 @@
+The ''0-add_integer'' module
+=========================
+
+
+Using ''add_integer''
+------------------------------------
+
+
+Import module :
+       >>> add_integer= __import__ ("add_integer").add_integer
+
+Test a:
+       >>>add_integer("eee",19)
+       Traceback(most recent call last):
+       ...
+       TypeError:a must be an integer
+
+Test b:
+       >>>add_integer(19,"nono")
+       Traceback(most recent call last):
+       ...
+       TypeError:b must be an integer
+
+Test numposi:
+            >>> add_integer(100,1)
+            101
+
+Test numnega:
+                        
+
