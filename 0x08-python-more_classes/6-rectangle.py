@@ -9,8 +9,6 @@ class Rectangle:
     this is the class rectangle that we will discuss all informations
     recently !!!
     """
-
-
     number_of_instances = 0
 
     def __init__(self, width=0, height=0):
