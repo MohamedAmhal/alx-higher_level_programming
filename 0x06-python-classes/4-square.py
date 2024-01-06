@@ -8,7 +8,7 @@ class Square:
     """
     this is the class square that contient theprivate attribute size
 """
-    
+
     def __init__(self, __size=0):
         self.__size = __size
 
@@ -22,7 +22,7 @@ class Square:
 
     def area(self):
         if type(self.__size) != int:
-             raise ValueError("size must be an integer")
+            raise ValueError("size must be an integer")
         elif self.__size < 0:
             raise ValueError("size must be >= 0")
         else:
