@@ -10,9 +10,9 @@ class Rectangle:
     recently !!!
     """
 
-    def __init__(self, __width=0, __height=0):
-        self.__width = __width
-        self.__height = __height
+    def __init__(self, width=0, height=0):
+        self.__width = width
+        self.__height = height
 
     @property
     def width(self):
