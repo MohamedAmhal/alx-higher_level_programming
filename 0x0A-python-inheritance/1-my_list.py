@@ -1,17 +1,10 @@
 #!/usr/bin/python3
-"""
-this folder that contient the class
-list for creating
-"""
+"""Defines an inherited list class MyList."""
 
 
-class list(MyList):
-    """
-    the class mylidet
-    """
+class MyList(list):
+    """Implements sorted printing for the built-in list class."""
 
     def print_sorted(self):
-        """
-        this the documentation of this function
-        """
+        """Print a list in sorted ascending order."""
         print(sorted(self))
