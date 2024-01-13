@@ -11,14 +11,14 @@ class MyInt(int):
           nothing
     """
 
-    def __eq__(self, q):
+    def __ne__(self, q):
         """
         the function equal in python ==
         """
 
         return self.real == q
 
-    def __ne__(self, n):
+    def __eq__(self, n):
         """
         the function not equal in python
         """
