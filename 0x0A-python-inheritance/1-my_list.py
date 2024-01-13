@@ -14,4 +14,4 @@ class list(MyList):
         """
         this the documentation of this function
         """
-        return sorted(self)
+        print(sorted(self))
