@@ -1,3 +1,3 @@
-#showing the databases in this server
-SHOW databases;
+--showing the databases in this server
+SHOW DATABASES;
 
